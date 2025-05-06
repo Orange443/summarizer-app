@@ -46,7 +46,7 @@ if submit_text_button:
                     top_p=0.9
                 )
                 summary = chat_completion.choices[0].message.content
-                st.session_state.summary_output = summary # Store result
+                st.session_state.summary_output = summary 
                 st.success("Text summary generated!")
 
 st.divider()

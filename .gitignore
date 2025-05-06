@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+*/venv/
+.venv/
+
+# Streamlit secrets (DO NOT COMMIT THESE)
+.streamlit/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor/OS specific
+.idea/
+.vscode/
+*.DS_Store

@@ -17,7 +17,7 @@ if 'summary_output' not in st.session_state:
     st.session_state.summary_output = "" 
 
 
-st.subheader("Option 1: Enter Text to Summarize")
+st.subheader("Enter Text to Summarize")
 text_to_summarize = st.text_area("Paste your text here:", height=100, key="input_textarea")
 submit_text_button = st.button("Generate Summary")
 
